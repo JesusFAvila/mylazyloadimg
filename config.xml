@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>My Lazy Loading Img</name>
+    <displayName>My Lazy Loading Img</displayName>
+    <version>1.2.0</version>
+    <description>Add loading="lazy" to all JPG images automatically.</description>
+    <author>Jesús Fernández Ávila</author>
+    <tab>front_office_features</tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+</module>
