@@ -10,7 +10,7 @@ class MyLazyLoadImg extends Module {
         $this->name = 'mylazyloadimg';
         $this->tab = 'front_office_features';
         $this->version = '1.2.0';
-        $this->author = 'YourName';
+        $this->author = 'Jesús Fernández Ávila';
         $this->need_instance = 0;
         $this->bootstrap = true;
 
