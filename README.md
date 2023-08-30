@@ -9,6 +9,15 @@ Compatible con PrestaShop: 1.7.x
 
 El Módulo de LazyLoad de Imágenes es un módulo para PrestaShop que agrega automáticamente el atributo 'loading="lazy"' a todas las etiquetas <img> en las páginas de tu tienda. Esta funcionalidad permite la carga perezosa de imágenes, lo que mejora la velocidad de carga de la página al retrasar la carga de imágenes fuera del campo de visión del usuario.
 
+Es importante entender que el atributo 'loading="lazy"' es un atributo de carga perezosa que se agrega dinámicamente mediante JavaScript después de que la página se carga inicialmente. Debido a esta naturaleza, este atributo puede no ser visible en el código fuente del inspector de elementos de los navegadores.
+
+El inspector de elementos muestra el código HTML original que se envía desde el servidor al navegador y no refleja modificaciones posteriores realizadas con JavaScript. Esto significa que aunque el atributo 'loading="lazy"' se aplica y afecta la forma en que las imágenes se cargan en la página, no aparecerá en el inspector de elementos.
+
+Si deseas verificar que la carga perezosa está funcionando correctamente, te recomendamos observar el comportamiento de carga de las imágenes mientras navegas por la página. Notarás que las imágenes se cargan a medida que se desplazan al campo de visión del usuario, lo que mejora la velocidad de carga y la experiencia del usuario.
+
+Recuerda que este comportamiento es normal y es inherente a cómo funciona la carga perezosa con el atributo 'loading="lazy"' en el entorno web actual.
+
+
 == Instalación desde Prestashop==
 
 1. Descarga el archivo zip del módulo desde la página de GitHub o tu fuente preferida.
